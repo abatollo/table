@@ -1,0 +1,21 @@
+table {
+    margin: 10px 0;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 13px;
+}
+
+table tr {
+    background: white;
+    border: 1px solid #aeaed3;
+}
+
+table tr:nth-child(2n) {
+    background: green;
+}
+
+table td {
+    border: 1px solid green;
+    padding: 3px 5px;
+}
